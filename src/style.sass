@@ -1,0 +1,33 @@
+html,body
+  display: flex
+  justify-content: center
+  align-items: center
+  //撐滿上下視窗
+  height: 100%
+  margin: 0
+  background-color: black
+//隨視窗縮放
+canvas
+    max-width: 100%// max-width: 100vmin
+.panel
+  position: absolute
+  color: white
+  display: flex
+  justify-content: center
+  align-items: center
+  //由上到下排列
+  flex-direction: column
+  padding: 50px
+    
+button
+  background-color: transparent
+  border: solid 1px white
+  border-radius: 20px
+  padding: 5px 10px
+  color: white
+  cursor: pointer
+  outline: none
+  &:hover
+    background-color: #fff
+    color: black
+  
